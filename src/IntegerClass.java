@@ -31,5 +31,10 @@ public class IntegerClass {
 		//to define a Integer using the value of another data type we use valueOf
 		Integer num4 = num1.valueOf(a1);
 		System.out.println(num4);
+		
+		//to convert a String in a Integer
+		String s2 = "23";
+		Integer num5 = Integer.parseInt(s2);
+		System.out.println(num5);
 	}
 }
